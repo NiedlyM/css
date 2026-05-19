@@ -1,0 +1,90 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box
+
+}
+
+
+#nome {
+    color: #000000;
+    padding: 40px;
+   
+}
+.sobre {
+    
+    color: #3c3161;
+  
+}
+body {
+    font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+p {
+    height: 70px;
+
+   }
+
+
+button {
+    transition: cubic-bezier(0.77, 0, 0.175, 1);
+   color: #e7029bbe;
+   background: #9f88ebda;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    border-color: rgba(226, 226, 211, 0.342);
+    font-weight: 600;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+button:hover {
+    opacity: 0.7;
+    cursor: auto;
+
+}
+.caixa-principal {
+    background-color: #f3d2de;  
+    border: 2px solid #ffb6c1; 
+    max-width: 550px;          
+    width: 100%;
+    padding: 40px 30px;          
+    border-radius: 20px;  
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+    text-align: center;          
+    box-sizing: border-box;
+}
+.tec {
+   background-color: #f3d2de;  
+    border: 2px solid #ffb6c1; 
+    max-width: 550px;          
+    width: 100%;
+    padding: 40px 30px;          
+    border-radius: 20px;  
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+    text-align: center;          
+    box-sizing: border-box; 
+    font-family: "iceberg" sans-serif;
+    color: #000000;
+}
+fieldset ul {
+    list-style-type: none;
+}
+h2 li {
+    color: #ec9018;
+
+}
+h2 li::before {
+    content: "⭐";
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+
