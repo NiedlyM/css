@@ -1,86 +1,3 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing:border-box
-
-}
-
-
-#nome {
-    color: #000000;
-    padding: 40px;
-   
-}
-.sobre {
-    
-    color: #3c3161;
-  
-}
-body {
-    font-weight: 700;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-p {
-    height: 70px;
-
-   }
-
-
-button {
-    transition: cubic-bezier(0.77, 0, 0.175, 1);
-   color: #e7029bbe;
-   background: #9f88ebda;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: medium;
-    border-color: rgba(226, 226, 211, 0.342);
-    font-weight: 600;
-    background-color: aliceblue;
-    border-radius: 50px;
-}
-button:hover {
-    opacity: 0.7;
-    cursor: auto;
-
-}
-.caixa-principal {
-    background-color: #f3d2de;  
-    border: 2px solid #ffb6c1; 
-    max-width: 550px;          
-    width: 100%;
-    padding: 40px 30px;          
-    border-radius: 20px;  
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
-    text-align: center;          
-    box-sizing: border-box;
-}
-.tec {
-   background-color: #f3d2de;  
-    border: 2px solid #ffb6c1; 
-    max-width: 550px;          
-    width: 100%;
-    padding: 40px 30px;          
-    border-radius: 20px;  
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
-    text-align: center;          
-    box-sizing: border-box; 
-    font-family: "iceberg" sans-serif;
-    color: #000000;
-}
-fieldset ul {
-    list-style-type: none;
-}
-h2 li {
-    color: #ec9018;
-
-}
-h2 li::before {
-    content: "⭐";
-}
-
 body {
     margin: 0;
     padding: 40px 20px;
@@ -88,3 +5,65 @@ body {
     background-color: #f8fafc;
     color: #1e293b;
 
+}
+
+.container-servicos {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+      
+}
+
+.servico {
+    background-color: #d6d0ee;
+    border-radius: 12px;
+    padding: 25px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+
+.servico h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+
+.servico p {
+    font-size: 13px;
+    color: #010408b0;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    min-height: 40px;
+}
+.servico button {
+    color: #010813;
+      border-radius: 8px;
+    background-size: 20px;
+}
+header button {
+color: #eef3fd;
+background-color: blue;
+}
+header {
+text-align: center;
+}
+h2 {
+    text-align: center;
+}
